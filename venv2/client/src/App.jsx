@@ -5,6 +5,7 @@ import LoginPage from "./pages/LoginPage";
 import ProductosPage from "./pages/ProductosPage";
 import PrepagoPage from "./pages/PrepagoPage";
 import ExitoPage from "./pages/ExitoPage";
+import AgregarProductoPage from "./pages/AgregarProductoPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Route path="/productos" element={<ProductosPage />} />
       <Route path="/prepago" element={<PrepagoPage />} />
       <Route path="/exito" element={<ExitoPage />} />
+      <Route path="/agregar-producto" element={<AgregarProductoPage />}></Route>
     </Routes>
   );
 }

@@ -1,5 +1,7 @@
 import { useCart } from "../context/CarritoContext";
 import { useState } from "react";
+import '../css/CarritoPrepago.css'
+
 function CarritoPrepago() {
   const { cartItems, calculateTotal,removeFromCart } = useCart();
 
